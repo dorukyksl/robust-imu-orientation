@@ -1,0 +1,46 @@
+{
+  "madgwick": {
+    "params": {
+      "gain": 0.07
+    },
+    "mean_total": 4.730377818215256,
+    "mean_clean": 4.272416646052879,
+    "mean_disturbed": 5.388697003198672
+  },
+  "mahony": {
+    "params": {
+      "k_I": 0.001,
+      "k_P": 1.0
+    },
+    "mean_total": 7.774987756551982,
+    "mean_clean": 6.775227598146879,
+    "mean_disturbed": 9.212142984259316
+  },
+  "vqf": {
+    "params": {
+      "tauAcc": 3.0,
+      "tauMag": 20.0
+    },
+    "mean_total": 2.125436134229692,
+    "mean_clean": 1.7552143046458382,
+    "mean_disturbed": 2.6576300142564833
+  },
+  "eskf": {
+    "params": {
+      "acc_noise": 0.1,
+      "mag_noise": 1.0
+    },
+    "mean_total": 2.911545589425715,
+    "mean_clean": 2.4608235460704004,
+    "mean_disturbed": 3.55945852674898
+  },
+  "eskf_gated": {
+    "params": {
+      "acc_noise": 0.05,
+      "mag_noise": 0.3
+    },
+    "mean_total": 2.339336428634259,
+    "mean_clean": 2.1442559078288785,
+    "mean_disturbed": 2.619764677291993
+  }
+}
