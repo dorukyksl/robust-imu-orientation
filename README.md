@@ -65,8 +65,8 @@ python3 -m venv .venv
 `run_all.sh` downloads the dataset (about 170 MB) and recreates every number
 and figure in this README. The filters run in parallel on all but one CPU
 core, and the whole run takes about an hour on a 14-core laptop, most of it
-for the parameter search. Each step was run separately while developing; the
-script runs them in the same order.
+for the parameter search. Run from a clean copy of the repository, it took
+52 minutes and reproduced every result file in `results/` byte for byte.
 
 ## The problem in one paragraph
 
@@ -334,6 +334,7 @@ These attempts made things worse, or failed until fixed:
 | `scripts/` | One script per step; `report.py` prints the tables above |
 | `results/` | CSV files with every per-trial result, and the figures |
 | `run_all.sh` | Everything, in order |
+| `docs/technical_note.pdf` | Two-page summary of the results |
 
 ## References
 
